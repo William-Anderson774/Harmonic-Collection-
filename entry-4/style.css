@@ -14,9 +14,13 @@ p1 {
   font-size:12px;
 }
 }
-img {
-  width: 1500px;
-  height: auto;
+P1 {
+  background-color: #b2b2b2; 
+  padding: 2.5px;            
+  border-radius: 0px;    
+  text-align: right;  
+  margin: 0 auto;
+  width: 1000px;
 }
 P1 {
   background-color: #b2b2b2; 
@@ -51,4 +55,4 @@ article {
   border: 2px solid black;
   text-align: right;
   margin: 0 auto
-}
+}              
