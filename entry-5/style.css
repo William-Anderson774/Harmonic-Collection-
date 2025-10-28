@@ -71,3 +71,10 @@ a {
   padding: 250px;
   text-align: left;
 }
+article img {
+  width: 64px;
+  height: 64px;
+  border: 10px, transparent;
+  align-self: center;
+  margin: 0 auto
+}
