@@ -1,10 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bitcount:wght@100..900&family=VT323&display=swap');
-body {
-  font-family: sans-serif;
-}
 h1 {
   font-family: 'Bitcount Prop Single Ink', sans-serif;
   font-size: xxx-large;
@@ -41,7 +37,11 @@ P1 {
   margin: 0 auto;
   width: 1000px;
 }
-
+body {
+  background-color: rgb(146, 146, 146);
+  typesize: 18px;
+    font-family: 'VT323', monospace;
+}
 div-1{
   width: 1000px;
   border: 2px solid black;
