@@ -9,6 +9,10 @@ h1 {
   font-family: 'Bitcount Prop Single Ink', sans-serif;
   font-size: xxx-large;
 }
+h3{
+  font-family: 'VT323', monospace;
+  font-size: xx-large;
+}
 p1 {
   font-family: 'VT323', monospace;
   font-size: x-large;
@@ -81,4 +85,9 @@ article img {
   border: 10px, transparent;
   align-self: center;
   margin: 0 auto
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
+
