@@ -25,7 +25,7 @@ h3{
   font-size: large;
   color: black;
   padding: 250px;
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
   width: 1000px;
 }
@@ -135,7 +135,9 @@ h2 {
 }
 .nav-links a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 15px;
+  text-decoration-thickness: 7.5px;
+  text-underline-offset: 7.5px;
+  text-decoration-style: dashed;
 }
 header {
   position: fixed;         
@@ -160,3 +162,48 @@ header .favicon {
 body {
   padding-top: 80px; /* adjust based on header height */
 }
+
+h4{
+  font-family: 'VT323', monospace;
+  font-size: medium;
+  color: black;
+  padding: 10px;
+  text-align: right;
+  margin: 0 auto;
+  width: 1000px;
+}
+h6{
+  font-family: 'VT323', monospace;
+  font-size: large;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 1000px;
+}
+h7{
+  font-family: 'VT323', monospace;
+  font-size: large;
+  color: black;
+  padding: 10px;
+  text-align: right;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+
+
+
+
+
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 50px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; 
+  left: 0;
+  background-color: #111111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
