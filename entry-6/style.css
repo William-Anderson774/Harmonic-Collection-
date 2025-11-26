@@ -19,7 +19,14 @@ img {
   height:50%;
   align-self: center;
   border: 10px transparent;
+}
 
+div1{
+  width: 50%
+  align-self: center;
+  border: 10px transparent;
+
+}
 }
 P1 {
   background-color: #ffffff; 
