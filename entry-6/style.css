@@ -22,11 +22,9 @@ img {
 }
 
 div1{
-  width: 50%
+  width: 50%;
   align-self: center;
   border: 10px transparent;
-
-}
 }
 P1 {
   background-color: #ffffff; 
@@ -46,7 +44,7 @@ P1 {
 }
 body {
   background-color: rgb(255, 255, 255);
-  typesize: 18px;
+  font-size: 18px;
     font-family: 'VT323', monospace;
 }
 div-1{
@@ -94,7 +92,7 @@ h2 {
   font-size: large;
   color: black;
   padding: 250px;
-  text-align: right;
+  text-align: left;
   margin: 0 auto;
   width: 1000px;
 
@@ -141,4 +139,26 @@ header .favicon {
 }
 body {
   padding-top: 80px; /* adjust based on header height */
+}
+div-6{
+  width: 25%;
+  height: auto;
+  align-self: center;
+  border: 10px transparent;
+}
+h3{
+  font-family: 'VT323', monospace;
+  font-size: large;
+  color: black;
+  padding: 10px;
+  text-align: Right;
+  margin: 0 auto;
+}
+h5{
+  font-family: 'VT323', monospace;
+  font-size: large;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
 }
