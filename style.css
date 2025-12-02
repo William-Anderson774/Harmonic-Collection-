@@ -7,14 +7,33 @@ body {
 }
 h1 {
   font-family: 'Bitcount Prop Single Ink', sans-serif;
-  font-size: xxx-large;
+  font-size: xx-large;
   text-indent: 775px;
   z-index: 1;
+  color: white;
+  
+h2{
+  `font-family: 'VT323', monospace;
+  font-size: large;
+  text-align: left;
+}
 }
 h3{
   font-family: 'VT323', monospace;
   font-size: x-large;
 }
+h5{
+  font-family: 'VT323', monospace;
+  font-size: small;
+  text-align: Right;
+
+}
+h6{
+  font-family: 'VT323', monospace;
+  font-size: x-large;
+  text-align: left;
+}
+]
 p1 {
   font-family: 'VT323', monospace;
   font-size: x-large;
@@ -74,9 +93,9 @@ a {
   text-align: left;
 }
 article img {
-  width: 64px;
-  height: 64px;
-  border: 10px, transparent;
+  width: 86px;
+  height: 86px;
+  border: 0px, transparent;
   align-self: center;
   margin: 0 auto
   position: absolute;
